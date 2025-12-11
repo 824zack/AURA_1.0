@@ -1,5 +1,5 @@
-A.U.R.A (Autonomous Understanding & Responsive Assistance)
-
+**A.U.R.A (Autonomous Understanding & Responsive Assistance)
+**
 Agentic Mobility Ecosystem Prototype | EY Techathon 6.0 Submission
 
     Transforming Automotive Automation into Autonomy.
