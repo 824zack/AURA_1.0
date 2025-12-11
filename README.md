@@ -1,105 +1,109 @@
-**A.U.R.A (Autonomous Understanding & Responsive Assistance)
-**
-Agentic Mobility Ecosystem Prototype | EY Techathon 6.0 Submission
+A.U.R.A — Agentic Mobility Ecosystem Prototype
+EY Techathon 6.0 Submission
 
-    Transforming Automotive Automation into Autonomy.
+Autonomous Understanding & Responsive Assistance
+
+Transforming automotive automation into true autonomy.
 
 🚀 Overview
 
-AURA is an intelligent, multi-agent system designed to bridge the gaps in the current automotive ecosystem. Unlike traditional dashboards that simply display data, AURA thinks, decides, and acts. It integrates vehicle health, driver wellness, and sustainability into a unified, conversational interface powered by Google Gemini AI.
+A.U.R.A is an intelligent agentic mobility system built to bridge the gaps in today’s automotive ecosystem.
+Instead of simply displaying data, A.U.R.A thinks, decides, and acts—combining vehicle health, driver wellness, and sustainability into one unified, conversational interface powered by Google Gemini AI.
 
-This prototype demonstrates how Agentic AI can solve the "broken links" in mobility—connecting diagnostics, driver safety, and the circular economy.
+This prototype demonstrates how Agentic AI solves key “broken links” in mobility, connecting diagnostics, driver safety, and the circular economy.
+
 🌟 The Three Pillars
+1. AURA TATVA — The Mind (Intelligence of Truth)
 
-This project is built upon three core agentic philosophies:
+Real-time telemetry monitoring (Voltage, RPM, Engine Temperature).
 
-    AURA TATVA (The Mind): The Intelligence of Truth.
+Predictive diagnostics powered by ML simulation.
 
-        Real-time telemetry analysis (Voltage, RPM, Engine Temp).
+Scenario: Alternator-failure prediction with auto-scheduled service.
 
-        Predictive diagnostics using ML simulation.
+2. AURA JEEVAH — The Heart (Pulse of Life)
 
-        Scenario Implemented: Alternator failure prediction and auto-scheduling repairs.
+Driver wellness tracking (Heart Rate, Stress, Fatigue).
 
-    AURA JEEVAH (The Heart): The Pulse of Life.
+PERCLOS-based drowsiness simulation.
 
-        Driver wellness monitoring (Heart Rate, Stress Levels).
+Scenario: Emergency rest-stop routing + cabin environment adjustment.
 
-        Fatigue and drowsiness detection via PERCLOS simulation.
+3. AURA PRAVAHA — The Flow (Flow of Renewal)
 
-        Scenario Implemented: Emergency rest stop routing and cabin environment adjustment.
+Circular-economy intelligence for material recovery.
 
-    AURA PRAVAHA (The Flow): The Flow of Renewal.
+Component end-of-life tracking.
 
-        Circular economy integration.
-
-        Tracking component end-of-life and material recovery.
-
-        Scenario Implemented: Brake pad end-of-life detection and seamless recycling pickup scheduling.
+Scenario: Brake-pad EoL detection + automated recycling pickup booking.
 
 ⚡ Key Features
 
-    🧠 Multi-Agent Core: Visual representation of active agents (Data, Diagnosis, Master, Engagement, Scheduling) working in real-time.
+🧠 Multi-Agent Core:
+Real-time visualization of Data, Diagnosis, Master, Engagement, and Scheduling agents.
 
-    🗣️ GenAI Voice Assistant: Full bidirectional voice interaction.
+🗣️ GenAI Voice Assistant:
 
-        Speech-to-Text: Give voice commands via the browser microphone.
+Speech-to-Text via browser microphone
 
-        Text-to-Speech: Instant audio responses using Gemini 2.5 Flash TTS.
+Text-to-Speech using Gemini 2.5 Flash TTS
 
-    📊 Live Simulation: Interactive dashboard simulating varying driving conditions and component degradation.
+Fully bidirectional conversations
 
-    🤖 Grounded Knowledge: The assistant uses Google Search grounding to answer general queries while maintaining context of the vehicle's status.
+📊 Live Driving Simulation:
+Dynamic dashboard with component degradation & edge-case triggers.
 
-    📱 Responsive UI: Built with React and Tailwind CSS for a modern, dashboard-style experience.
+🤖 Grounded Knowledge:
+Uses Google Search grounding for contextual, accurate responses.
+
+📱 Modern UI:
+React + Tailwind CSS dashboard-style interface.
 
 🛠️ Tech Stack
 
-    Frontend: React.js
+Frontend: React.js
 
-    Styling: Tailwind CSS, Lucide Icons
+Styling: Tailwind CSS, Lucide Icons
 
-    AI Model: Google Gemini API (gemini-2.5-flash-preview & gemini-2.5-flash-preview-tts)
+AI Models: Gemini 2.5 Flash (Text & TTS)
 
-    Speech: Web Speech API (STT) & Gemini Audio (TTS)
+Speech: Web Speech API (STT) + Gemini Audio (TTS)
 
-📸 Usage & Scenarios
+🎮 Usage & Demo Scenarios
 
-The dashboard allows you to manually trigger specific edge cases to demonstrate the Agentic workflow:
+Trigger edge-case events directly from the dashboard:
 
-    Click "Simulate Alternator Fail": Watch Tatva detect the voltage drop, analyze the risk, and offer a service slot.
+Simulate Alternator Failure:
+Tatva detects voltage drop → risk assessment → service slot suggestion.
 
-    Click "Simulate Driver Fatigue": Watch Jeevah detect elevated heart rate/fatigue and suggest a coffee stop.
+Simulate Driver Fatigue:
+Jeevah identifies stress/drowsiness → suggests rest stop.
 
-    Click "Simulate Circular Econ": Watch Pravah identify worn components and schedule a recycling pickup.
+Simulate Circular Economy Workflow:
+Pravah detects worn components → arranges recycling pickup.
 
 📦 Setup
+# Clone the repository
+git clone <repo-url>
 
-    Clone the repository:
-    Bash
-
-
-
-Install dependencies:
-Bash
-
+# Install dependencies
 npm install
 
-Important: Create a .env file or update the apiKey variable in App.js with your Google Gemini API Key.
+# Add your Gemini API key
+# (Update .env or the apiKey variable in App.js)
 
-Run the application:
-Bash
-
-    npm start
+# Run the development server
+npm start
 
 👥 Team Subharambh
 
-    Shreejit Saha: Strategy & Innovation
+Shreejit Saha — Strategy & Innovation
 
-    Sushmita Sen: Creative Direction & Concept
+Sushmita Sen — Creative Direction & Concept
 
-    Aldrich Punnapuzha Jomon: Technical Architecture & Analytics
+Aldrich Punnapuzha Jomon — Technical Architecture & Analytics
 
-Short Description (For Sidebar/About Section):
+📌 Short Description (Sidebar/About Section)
 
-AURA is an Agentic Mobility Ecosystem prototype built for the EY Techathon 6.0. It utilizes React and Google Gemini AI to create a vehicle interface that proactively manages diagnostics (Tatva), driver health (Jeevah), and component recycling (Pravah) through a conversational voice assistant.
+AURA is an Agentic Mobility Ecosystem prototype built for EY Techathon 6.0.
+It uses React and Google Gemini AI to create a proactive vehicle interface that manages diagnostics (Tatva), driver health (Jeevah), and circular-economy workflows (Pravah) through a conversational voice assistant.
