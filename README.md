@@ -78,7 +78,7 @@ The dashboard allows you to manually trigger specific edge cases to demonstrate 
     Clone the repository:
     Bash
 
-git clone https://github.com/your-username/aura-mobility-ecosystem.git
+
 
 Install dependencies:
 Bash
