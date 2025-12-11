@@ -1,0 +1,7 @@
+{
+  "name": "AURA - Agentic Mobility Ecosystem",
+  "description": "An advanced vehicle AI agent simulation demonstrating real-time telemetry, multi-agent orchestration, and generative AI interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
