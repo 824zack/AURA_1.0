@@ -36,6 +36,7 @@ Diagnostics          Fatigue Detection        Circular Economy
                         │   UI/UX    │
                         │  React.js  │
                         └────────────┘
+        
 
 🔱 The Three Pillars of A.U.R.A
 1. AURA TATVA — The Mind 🧠
