@@ -1,5 +1,3 @@
-Here's a more polished and professional version of your README:
-
 A.U.R.A — Agentic Mobility Ecosystem
 Autonomous Understanding & Responsive Assistance
 EY Techathon 6.0 | Team Subharambh
