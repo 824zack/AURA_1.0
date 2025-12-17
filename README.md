@@ -115,7 +115,9 @@ Add it to your .env file as shown above
 Never commit your API key to version control
 
 👥 Team Subharambh
-MemberRoleShreejit SahaStrategy & Innovation LeadSushmita SenCreative Direction & Concept DesignAldrich Punnapuzha JomonTechnical Architecture & Analytics
+
+![Screenshot 2025-12-17 at 4 48 29 PM](https://github.com/user-attachments/assets/3f04c9ed-af9c-478e-b13d-83c51936948f)
+
 📄 Project Summary
 A.U.R.A (Autonomous Understanding & Responsive Assistance) is an Agentic Mobility Ecosystem prototype developed for EY Techathon 6.0. The system integrates React.js and Google Gemini AI to deliver:
 
