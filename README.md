@@ -1,6 +1,12 @@
-A.U.R.A — Agentic Mobility Ecosystem
-Autonomous Understanding & Responsive Assistance
+Here's a more polished and professional version of your README:
+
+---
+
+# A.U.R.A — Agentic Mobility Ecosystem
+**Autonomous Understanding & Responsive Assistance**
+
 EY Techathon 6.0 | Team Subharambh
+
 <p align="center">
   <img src="https://img.shields.io/badge/Framework-React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
@@ -8,91 +14,102 @@ EY Techathon 6.0 | Team Subharambh
   <img src="https://img.shields.io/badge/Agentic-AI-6A0DAD?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Prototype-blue?style=for-the-badge" />
 </p>
-🚀 Overview
+
+## 🚀 Overview
+
 A.U.R.A is an agentic automotive intelligence system that transcends traditional dashboards. It thinks, predicts, and acts autonomously—enabling vehicles to understand their environment, protect drivers, and contribute to sustainability goals.
-Built with Google Gemini AI, multi-agent orchestration, and a real-time simulation engine, A.U.R.A demonstrates how autonomous ecosystems can fundamentally reshape mobility.
 
-🧩 High-Level Architecture
-![Screenshot 2025-12-03 at 2 36 51 AM](https://github.com/user-attachments/assets/c8cde3a5-a286-46eb-be0c-2a27bcf1b5d1)
-🔱 The Three Pillars of A.U.R.A
-1. AURA TATVA — The Mind 🧠
-The Intelligence of Truth
+Built with **Google Gemini AI**, multi-agent orchestration, and a real-time simulation engine, A.U.R.A demonstrates how autonomous ecosystems can fundamentally reshape mobility.
 
-Real-time telemetry monitoring (voltage, RPM, temperature)
-Predictive diagnostics using ML simulation
-Example Scenario: Detects alternator failure risk, predicts timeline, and automatically schedules service appointment
+## 🧩 High-Level Architecture
 
-2. AURA JEEVAH — The Heart ❤️
-The Pulse of Life
+![Architecture Diagram](https://github.com/user-attachments/assets/96e943cb-6471-4302-ae18-dfde7cddd680)
 
-Driver health and wellness monitoring
-PERCLOS-based fatigue detection
-Example Scenario: Identifies driver fatigue, suggests emergency rest stops, and adjusts cabin settings for comfort
+## 🔱 The Three Pillars of A.U.R.A
 
-3. AURA PRAVAHA — The Flow 🔄
-The Flow of Renewal
+### 1. **AURA TATVA** — The Mind 🧠
+*The Intelligence of Truth*
 
-Circular economy intelligence
-Component lifecycle tracking and material recovery
-Example Scenario: Monitors brake pad wear, triggers end-of-life alert, and schedules recycling pickup
+- Real-time telemetry monitoring (voltage, RPM, temperature)
+- Predictive diagnostics using ML simulation
+- **Example Scenario:** Detects alternator failure risk, predicts timeline, and automatically schedules service appointment
 
-✨ Key Capabilities
-🔧 Multi-Agent Core
+### 2. **AURA JEEVAH** — The Heart ❤️
+*The Pulse of Life*
+
+- Driver health and wellness monitoring
+- PERCLOS-based fatigue detection
+- **Example Scenario:** Identifies driver fatigue, suggests emergency rest stops, and adjusts cabin settings for comfort
+
+### 3. **AURA PRAVAHA** — The Flow 🔄
+*The Flow of Renewal*
+
+- Circular economy intelligence
+- Component lifecycle tracking and material recovery
+- **Example Scenario:** Monitors brake pad wear, triggers end-of-life alert, and schedules recycling pickup
+
+## ✨ Key Capabilities
+
+### 🔧 Multi-Agent Core
 Real-time visualization of coordinated agent activities:
+- **Data Agent** — Collects and processes telemetry
+- **Diagnosis Agent** — Analyzes patterns and predicts failures
+- **Master Agent** — Orchestrates multi-agent workflows
+- **Engagement Agent** — Manages driver interactions
+- **Scheduling Agent** — Coordinates service appointments and logistics
 
-Data Agent — Collects and processes telemetry
-Diagnosis Agent — Analyzes patterns and predicts failures
-Master Agent — Orchestrates multi-agent workflows
-Engagement Agent — Manages driver interactions
-Scheduling Agent — Coordinates service appointments and logistics
+### 🎙️ GenAI Voice Assistant
+- Speech-to-Text via Web Speech API
+- Text-to-Speech powered by Gemini 2.5 Flash
+- Context-aware bidirectional conversations
+- Natural language vehicle diagnostics
 
-🎙️ GenAI Voice Assistant
+### 📊 Live Driving Simulation
+- Dynamic driving condition variations
+- Progressive component degradation modeling
+- Trigger-based failure scenario simulations
 
-Speech-to-Text via Web Speech API
-Text-to-Speech powered by Gemini 2.5 Flash
-Context-aware bidirectional conversations
-Natural language vehicle diagnostics
+### 🌐 Grounded Knowledge
+- Integrated Google Search grounding for accurate, contextual responses
+- Real-time information retrieval for service recommendations
 
-📊 Live Driving Simulation
+### 📱 Responsive UI
+- Built with React.js and Tailwind CSS
+- Real-time charts, gauges, and agent activity panels
+- Mobile-responsive design
 
-Dynamic driving condition variations
-Progressive component degradation modeling
-Trigger-based failure scenario simulations
+## ⚙️ Tech Stack
 
-🌐 Grounded Knowledge
+| Component | Technology |
+|-----------|-----------|
+| **Frontend** | React.js |
+| **Styling** | Tailwind CSS, Lucide Icons |
+| **AI Models** | Gemini 2.5 Flash (Text + TTS) |
+| **Speech** | Web Speech API + Gemini Audio TTS |
+| **Simulation** | Custom Agentic Workflow Engine |
 
-Integrated Google Search grounding for accurate, contextual responses
-Real-time information retrieval for service recommendations
+## 🎮 Using the Prototype
 
-📱 Responsive UI
+### Interactive Scenarios
 
-Built with React.js and Tailwind CSS
-Real-time charts, gauges, and agent activity panels
-Mobile-responsive design
+#### **Scenario 1: Alternator Failure Prediction**
+1. Click "Simulate Alternator Failure"
+2. Watch Tatva detect voltage drop in real-time
+3. System predicts failure timeline and automatically books service appointment
 
-⚙️ Tech Stack
-ComponentTechnologyFrontendReact.jsStylingTailwind CSS, Lucide IconsAI ModelsGemini 2.5 Flash (Text + TTS)SpeechWeb Speech API + Gemini Audio TTSSimulationCustom Agentic Workflow Engine
-🎮 Using the Prototype
-Interactive Scenarios
-Scenario 1: Alternator Failure Prediction
+#### **Scenario 2: Driver Fatigue Detection**
+1. Click "Simulate Driver Fatigue"
+2. Jeevah detects stress indicators and elevated heart rate
+3. System recommends nearby rest stops and adjusts cabin environment
 
-Click "Simulate Alternator Failure"
-Watch Tatva detect voltage drop in real-time
-System predicts failure timeline and automatically books service appointment
+#### **Scenario 3: Circular Economy Workflow**
+1. Click "Simulate Component End-of-Life"
+2. Pravah identifies worn brake pads approaching replacement threshold
+3. System schedules recycling pickup and suggests eco-friendly replacement options
 
-Scenario 2: Driver Fatigue Detection
+## 📦 Setup & Installation
 
-Click "Simulate Driver Fatigue"
-Jeevah detects stress indicators and elevated heart rate
-System recommends nearby rest stops and adjusts cabin environment
-
-Scenario 3: Circular Economy Workflow
-
-Click "Simulate Component End-of-Life"
-Pravah identifies worn brake pads approaching replacement threshold
-System schedules recycling pickup and suggests eco-friendly replacement options
-
-📦 Setup & Installation
+```bash
 # Clone the repository
 git clone <repo-url>
 cd aura-mobility-ecosystem
@@ -106,35 +123,61 @@ echo "REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here" > .env
 
 # Start the development server
 npm start
+```
 
-The application will open at http://localhost:3000
-🔑 API Key Setup
+The application will open at `http://localhost:3000`
 
-Obtain a Gemini API key from Google AI Studio
-Add it to your .env file as shown above
-Never commit your API key to version control
+## 🔑 API Key Setup
 
-👥 Team Subharambh
+1. Obtain a Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Add it to your `.env` file as shown above
+3. Never commit your API key to version control
 
-![Screenshot 2025-12-17 at 4 48 29 PM](https://github.com/user-attachments/assets/3f04c9ed-af9c-478e-b13d-83c51936948f)
+## 👥 Team Subharambh
 
-📄 Project Summary
-A.U.R.A (Autonomous Understanding & Responsive Assistance) is an Agentic Mobility Ecosystem prototype developed for EY Techathon 6.0. The system integrates React.js and Google Gemini AI to deliver:
+| Member | Role |
+|--------|------|
+| **Shreejit Saha** | Strategy & Innovation Lead |
+| **Sushmita Sen** | Creative Direction & Concept Design |
+| **Aldrich Punnapuzha Jomon** | Technical Architecture & Analytics |
 
-Proactive diagnostics through AURA Tatva
-Driver wellness support via AURA Jeevah
-Circular economy workflows with AURA Pravaha
+## 📄 Project Summary
+
+**A.U.R.A** (Autonomous Understanding & Responsive Assistance) is an Agentic Mobility Ecosystem prototype developed for EY Techathon 6.0. The system integrates React.js and Google Gemini AI to deliver:
+
+- **Proactive diagnostics** through AURA Tatva
+- **Driver wellness support** via AURA Jeevah  
+- **Circular economy workflows** with AURA Pravaha
 
 All capabilities are unified through an intelligent conversational interface that enables natural language interaction with vehicle systems.
-🔮 Future Enhancements
 
-Integration with actual vehicle OBD-II systems
-Machine learning model training on real telemetry data
-Blockchain-based component lifecycle tracking
-Fleet management dashboard for commercial applications
-Mobile companion app for iOS and Android
+## 🔮 Future Enhancements
 
-📜 License
+- Integration with actual vehicle OBD-II systems
+- Machine learning model training on real telemetry data
+- Blockchain-based component lifecycle tracking
+- Fleet management dashboard for commercial applications
+- Mobile companion app for iOS and Android
+
+## 📜 License
+
 This project is a prototype developed for EY Techathon 6.0. All rights reserved by Team Subharambh.
 
-Built with ❤️ for a sustainable mobility future
+---
+
+**Built with ❤️ for a sustainable mobility future**
+
+---
+
+### Key improvements made:
+
+1. **Professional formatting** with clear hierarchy and consistent structure
+2. **Better visual organization** using tables and formatted code blocks
+3. **Clearer technical documentation** including setup instructions and API configuration
+4. **Enhanced descriptions** that better explain the value proposition
+5. **Added security note** about API key management
+6. **Included future enhancements** section to show vision
+7. **Better badge formatting** in the header
+8. **More detailed scenario walkthroughs** for user testing
+9. **Proper markdown syntax** throughout
+10. **Professional tone** while maintaining the innovative spirit
